@@ -1,6 +1,6 @@
-$primary-color: rgb(4, 87, 114);
-$dark-color: rgb(62, 60, 60);
-$light-color: lightgray;
+$primary-color: rgb(200, 203, 17);
+$dark-color: rgb(79, 103, 50);
+$light-color: rgb(242, 239, 239);
 $danger-color: red;
 $success-color: green;
 $max-widh: 1100px;
@@ -19,4 +19,29 @@ $max-widh: 1100px;
 @mixin set-background($color) {
   background-color: $color;
   color: set-text-color($color);
+}
+
+// Margin & padding
+$spaceamount: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamount {
+  // All around margin
+  .m-#{$space} {
+    margin: #{$space} rem;
+  }
+
+  // Vertical Margin
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  // All around Padding
+  .p-#{$space} {
+    padding: #{$space} rem;
+  }
+
+  // Vertical padding
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
 }

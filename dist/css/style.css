@@ -1,3 +1,83 @@
+.m-1 {
+  margin: 1 rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1 rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2 rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2 rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3 rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3 rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4 rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4 rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5 rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5 rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
 .contianer {
   max-width: 1100px;
   margin: auto;
@@ -25,20 +105,24 @@
 }
 
 .text-primary {
-  color: rgb(4, 87, 114);
+  color: rgb(200, 203, 17);
+}
+
+.round-img {
+  border-radius: 50%;
 }
 
 .bg-primary {
-  background-color: rgb(4, 87, 114);
+  background-color: rgb(200, 203, 17);
   color: #fff;
 }
 .bg-light {
-  background-color: lightgray;
+  background-color: rgb(242, 239, 239);
   color: #333;
   border: #ccc 1px solid;
 }
 .bg-dark {
-  background-color: rgb(62, 60, 60);
+  background-color: rgb(79, 103, 50);
   color: #fff;
 }
 .bg-success {
@@ -57,7 +141,7 @@
 
 .btn {
   display: inline;
-  background: lightgray;
+  background: rgb(242, 239, 239);
   color: #333;
   padding: 0.4rem 1.3rem;
   border: none;
@@ -69,18 +153,18 @@
   transition: all 0.2 ease-in;
 }
 .btn.btn-primary {
-  background-color: rgb(4, 87, 114);
+  background-color: rgb(200, 203, 17);
   color: #fff;
 }
 .btn.btn-primary:hover {
-  background: #056a8b;
+  background: #dfe313;
 }
 .btn.btn-dark {
-  background-color: rgb(62, 60, 60);
+  background-color: rgb(79, 103, 50);
   color: #fff;
 }
 .btn.btn-dark:hover {
-  background: #4b4949;
+  background: #5c783a;
 }
 .btn.btn-success {
   background-color: green;
@@ -97,8 +181,32 @@
   background: #ff1a1a;
 }
 .btn:hover {
-  background: #726e6e;
+  background: #84ac53;
   color: white;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: rgb(242, 239, 239);
+  color: #333;
+}
+.alert.alert-primary {
+  background-color: rgb(200, 203, 17);
+  color: #fff;
+}
+.alert.alert-dark {
+  background-color: rgb(79, 103, 50);
+  color: #fff;
+}
+.alert.alert-success {
+  background-color: green;
+  color: #fff;
+}
+.alert.alert-danger {
+  background-color: red;
+  color: #fff;
 }
 
 .dark-overlay {
@@ -108,6 +216,28 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+.form input[type=text],
+.form input[type=email],
+.form input[type=password],
+.form input[type=date],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
 }
 
 * {
@@ -125,7 +255,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(4, 87, 114);
+  color: rgb(200, 203, 17);
 }
 
 img {
@@ -141,7 +271,7 @@ img {
   z-index: 1;
   width: 100%;
   top: 0;
-  border-bottom: solid 1px rgb(4, 87, 114);
+  border-bottom: solid 1px rgb(200, 203, 17);
   opacity: 0.9;
 }
 .navbar ul {
@@ -154,7 +284,7 @@ img {
   color: white;
 }
 .navbar a:hover {
-  color: rgb(4, 87, 114);
+  color: rgb(200, 203, 17);
 }
 
 .landing {
@@ -172,4 +302,14 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
