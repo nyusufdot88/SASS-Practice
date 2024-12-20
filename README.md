@@ -1,2 +1,2 @@
-A front-end practice project with only html and SASS
+A front-end practice project BUILT with only html and SASS
 # SASS PRACTICE
